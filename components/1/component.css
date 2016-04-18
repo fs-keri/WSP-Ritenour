@@ -1,4 +1,92 @@
-/* Component Stylesheet 
-============================================================
-============================================================*/
+/* Component 1 Stylesheet ============================================*/
+
+body
+{
+    font-family: Lato, sans-serif;
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 5em;
+    background-color: #2f3237;
+    color: #ffd020;
+
+}
+
+nav{
+    padding: 40px;
+}
+
+a{
+    color: #fff;
+}
+
+a:hover{
+    color: #ffd020;
+}
+
+footer  {
+    float: left;
+    clear: both;
+}
+
+address{
+    color: #fff;
+    font-size: 1em;
+    line-height: 2;
+}
+
+ul li{
+    color: #ffd020;
+    font-family: Roboto;
+    font-size: 1em;
+    line-height: 2;
+}
+
+.socialmedia{
+    padding-left: 0;
+    list-style:none;
+    font-size: 18px;
+}
+
+p{
+    color: #fff;
+    font-family: Roboto;
+    font-size: 1em;
+    line-height: 2.5;
+    padding: 40px;
+}
+
+h5{
+    font-family: Roboto;
+    font-size: 2.5rem;
+    color: #fff;
+    line-height: 2;
+    margin-bottom: 1rem;
+}
+
+footer:nth-of-type(2) p {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (min-width: 450px) {
+    footer, nav {
+        float: left;
+        text-align: center;
+        max-width: 100%;
+    }
+}
+
+footer nav{
+    text-align: left;
+}
+
+.contactus {
+    float: right;
+}
 

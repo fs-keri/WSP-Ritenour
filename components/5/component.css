@@ -1,4 +1,90 @@
-/* Component Stylesheet 
-============================================================
-============================================================*/
+/* Component 5 Stylesheet ==========================================*/
+body
+{
+    font-family: Helvetica;
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 1em 0 0 1em;
+}
 
+
+/* NAVIGATION ==========================================*/
+
+nav{
+    list-style: none;
+    padding: 2.2em 0;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 2.75em;
+}
+
+nav li{
+    font-family: Helvetica;
+    font-size: 1rem;
+    float: left;
+    padding-top: 0.20rem;
+    padding-left: 10px;
+    text-align: center;
+    font-weight: 800;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding-left:15px;
+
+}
+img {
+    float: left;
+}
+
+.current a {
+    color: #31ccff;
+}
+
+/*.socialmedia {
+    float: left;
+    display: block;
+    padding: 5px;
+}*/
+
+h2 { font-size: 1.35em;
+}
+
+h1{
+    float: left;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding-top: 1.75em;
+    padding-left: 10px;
+}
+
+/* SOCIAL MEDIA ==========================================
+
+.socialmedia li{
+    position: relative;
+    display: inline;
+    margin: 0 1rem 1rem 0;
+    float: right;
+    padding: .02rem;
+    padding-top: .25rem;
+}
+
+.socialmedia a{
+}
+
+.socialmedia a::before{
+    position: absolute;
+    display: inline-block;
+    font: 2rem FontAwesome;
+    text-indent: 0;
+}
+
+a[href*=facebook]::before {content: "\f09a"; color: #31ccff}
+a[href*=google-plus]::before {content: "\f0d5";}
+a[href*=twitter]::before {content: "\f099";}
+a[href*=pinterest]::before {content: "\f0d2";}
+a[href*=instagram]::before {content: "\f16d";}*/

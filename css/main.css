@@ -23,8 +23,15 @@ header, section, footer {
     background-color: #fff;
     }
 
+header{
+    color: #fff;
+    background: #1c1c38;
+    padding: 1em 1.25em;
+}
+
 article{
     padding: 1em;
+    margin-bottom: 2em;
 }
 
 article img{
@@ -50,7 +57,9 @@ h4 { font-size: 1.125em; font-weight: 600} /* 18px */
 h5 { font-size: 1em; font-weight: 600} /* 16px */
 h6 { font-size: .875em; } /* 14px */
 
-p { margin: 0 0 1.75rem 0; }
+p { margin: 0 0 1.25rem 0;
+    color: #676767;
+}
 
 a{
     color: #e94054;
@@ -75,34 +84,19 @@ hr
     border-top: 1px solid #ddd;
 }
 
-.footer
+footer
 {
     color: #fff;
     background: #1c1c38;
     padding: 1em 1.25em;
 }
-
-
-
-/* HEADER ============================== */
-.header
-{
-    color: #fff;
-    background: #1c1c38;
-    padding: 1em 1.25em;
-}
-
-
-
-/* ABOUT ============================== */
-
 
 
 /* COMPONENTS ============================== */
 
-
 ol {
     margin-bottom: 3rem;
+    color: #676767;
     }
 
 ol li {
@@ -111,8 +105,11 @@ ol li {
     margin: 0 1.75rem 0 1.75rem;
 }
 
-h3.featured{
-    text-align: center;
+code {
+    display: inline-block;
+    padding: 0 0.25rem;
+    border: solid 1px #cccccc;
+    border-radius: 3px;
 }
 
 .buttons li {
@@ -143,14 +140,23 @@ h3.featured{
 .buttons a[href*=components] { background-color: #e94054; }
 .buttons a[href*=components]:hover { background-color: #1c1c38; }
 
-.shadow {
+#components article{
     -moz-box-shadow:    3px 3px 5px 6px #edeeee;
     -webkit-box-shadow: 3px 3px 5px 6px #edeeee;
     box-shadow:         3px 3px 5px 6px #edeeee;
 }
 
-.shadow-featured {
+#components article.featured {
     -moz-box-shadow:    3px 3px 5px 6px #e94054;
     -webkit-box-shadow: 3px 3px 5px 6px #e94054;
     box-shadow:         3px 3px 5px 6px #e94054;
+}
+
+.featured h3{
+    text-align: center;
+    color: #e94054;
+}
+
+#components article p{
+    margin: 0 0 1.75rem 0;
 }

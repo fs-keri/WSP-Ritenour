@@ -13,7 +13,7 @@
   <body>
   <!-- Header -->
 
-		<header class="header">
+		<header>
 			<h1> keri ritenour </h1>
 			<h2> web standards project</h2>
 		</header>
@@ -22,27 +22,27 @@
   <!-- About -->
   <section>
 	  <h3>About Me</h3>
-	  <article>
 
 		  	<p>I am an aspiring web developer and designer from Strasburg, Virginia. When I am not developing and designing, I am
 				enjoying my small hobby farm where I care for horses, chickens, a herd of cats and one rotten dog. After spending years
 				in healthcare, I jumped ship and made a drastic career change. I'm loving every minute.
 			</p>
 
-	  </article>
-  </section>
+  </section><!-- End About Section -->
 
   <!-- Blog, Components -->
-
-  <section>
+  <section id="components">
 	  <h3>Component Library</h3>
-	  <article class="shadow">
+
+	  <!-- Component 1 -->
+	  <article>
 		  <img src="images/component1.jpg" />
 		  <h3>FOOTER</h3>
 
 		  <h5>WHAT I HOPE TO PRACTICE/LEARN?</h5>
 		  <p>This component was selected so that I can practice column layouts in the footer area that are more complicated that
-		  the simple one line copyright information.</p>
+		  the simple one line copyright information. I struggle with elements that need to be spread out into column
+		  type.</p>
 
 		  <h5>HOW THIS RELATES TO WHAT I HAVE/WILL LEARN IN WDD</h5>
 		  <p>The footer is not the end of a site and can contain information that will allow the users to delve deeper
@@ -51,8 +51,14 @@
 
 		  <h5>HOW I MIGHT BUILD THIS?</h5>
 		  <ol>
-			  <li>Coming Soon</li>
-
+			  <li>Create the component as a <code>&lt;footer&gt;</code></li>
+			  <li>Create a <code>&lt;navigation&gt;</code></li>
+			  <li>Add an <code>&lt;h5&gt;</code></li>
+			  <li>Create a <code>&lt;ol&gt;</code> and add <code>&lt;li&gt;</code> for each item below the heading</li>
+			  <li>Repeat steps 2 thru 4 for the other two lists</li>
+			  <li>Create <code>&lt;address&gt;</code> for the contact information</li>
+			  <li>Add an <code>&lt;ol&gt;</code> and <code>&lt;li&gt;</code> for the social media</li>
+			  <li>Add another <code>&lt;footer&gt;</code> and <code>&lt;p&gt;</code> for the copyright</li>
 		  </ol>
 
 		  <ul class="buttons">
@@ -65,13 +71,12 @@
 				  <a href="">Watch Me Build It (Coming Soon)</a>
 			  </li>
 		  </ul>
-	  </article>
-	  <br />
-	  <br />
+	  </article><!-- End Component 1 Article -->
 
 
-	  <article class="shadow-featured">
-		  <h3 class="featured">FEATURED</h3>
+	  <!-- Component 2 -->
+	  <article class="featured">
+		  <h3>FEATURED</h3>
 		  <img src="images/component2.jpg" />
 		  <img src="images/component2a.jpg" />
 		  <h3>FEATURED BOXES</h3>
@@ -86,16 +91,15 @@
 
 		  <h5>HOW I MIGHT BUILD THIS?</h5>
 		  <ol>
-			  <li>Create a section.</li>
-			  <li>Create an article.</li>
-			  <li>Create four div boxes.</li>
+			  <li>Create the component as a <code>&lt;section&gt;</code></li>
+			  <li>Create an <code>&lt;article&gt;</code></li>
 			  <li>Create the first box</li>
 			  <li>Add text for heading.</li>
 			  <li>Add image</li>
 			  <li>Add description text.</li>
-			  <li>Add more button</li>
+			  <li>Style button</li>
 			  <li>Add link to more button.</li>
-			  <li>Repeat for all four boxes.</li>
+			  <li>Repeat for the other three boxes.</li>
 
 		  </ol>
 
@@ -114,12 +118,10 @@
 			  </li>
 		  </ul>
 
+	  </article><!-- End Component 2 Article -->
 
-	  </article>
-	  <br />
-	  <br />
-
-	  <article class="shadow">
+	  <!-- Component 3 -->
+	  <article>
 		  <img src="images/component3.jpg" />
 		  <h3>CSS IMAGE MANIUPLATION</h3>
 
@@ -131,7 +133,12 @@
 
 		  <h5>HOW I MIGHT BUILD THIS?</h5>
 		  <ol>
-			  <li>Coming Soon</li>
+			  <li>Create the component as a <code>&lt;section&gt;</code></li>
+			  <li>Create a <code>&lt;div&gt;</code>for the background image</li>
+			  <li>Add an <code>&lt;h3&gt;</code></li>
+			  <li>Create a <code>&lt;p&gt;</code></li>
+			  <li>Create another <code>&lt;section&gt;</code></li>
+			  <li>Add an <code>&lt;h3&gt;</code></li>
 		  </ol>
 
 		  <ul class="buttons">
@@ -145,11 +152,10 @@
 			  </li>
 		  </ul>
 
-	  </article>
-	  <br />
-	  <br />
+	  </article><!-- End Component 3 Article -->
 
-	  <article class="shadow">
+	  <!-- Component 4 -->
+	  <article>
 		  <img src="images/component4.jpg" />
 		  <h3>SINGLE ROW GRID</h3>
 
@@ -179,27 +185,29 @@
 			  </li>
 		  </ul>
 
+	  </article><!-- End Component 4 Article -->
 
-	  </article>
-	  <br />
-	  <br />
-
-	  <article class="shadow">
+	  <!-- Component 5 -->
+	  <article>
 		  <img src="images/component5.jpg" />
 		  <h3>HEADER MENU</h3>
 
 		  <h5>WHAT I HOPE TO PRACTICE/LEARN?</h5>
-		  <p>This component was selected so that I can practice creating a header with navigation and social
-		  media icons that span the header. I often find it difficult to display these items as I want them.</p>
+		  	<p>This component was selected so that I can practice creating a header with navigation and social
+		  	media icons that span the header. I often find it difficult to display these items as I want them.
+			</p>
 
 		  <h5>HOW THIS RELATES TO WHAT I HAVE/WILL LEARN IN WDD</h5>
-		  <p>Header menus are very important for users and serve as a table of contents, showing the user where they can go next.
-		  </p>
+		  	<p>Header menus are very important for users and serve as a table of contents, showing the user where they can go next.
+		  	</p>
 
 		  <h5>HOW I MIGHT BUILD THIS?</h5>
-		  <ol>
-			  <li>Coming Soon</li>
-		  </ol>
+		  	<ol>
+				<li>Create the component with a <code>&lt;header&gt;</code></li>
+				<li>Add an <code>&lt;img&gt;</code> and <code>&lt;h1&gt;</code></li>
+				<li>Create the <code>&lt;nav&gt;</code>,<code>&lt;ul&gt;</code>and <code>&lt;li&gt;</code></li>
+				<li>Create another <code>&lt;ul&gt;</code>and<code>&lt;li&gt;</code>for the social media</li>
+		  	</ol>
 
 
 		  <ul class="buttons">
@@ -213,29 +221,20 @@
 			  </li>
 		  </ul>
 
-
-	  </article>
-	  <br />
-	  <br />
-
-  </section>
-  </div>
+	  </article><!-- End Component 5 Article -->
+  </section><!-- End Component Section -->
 
 
+  <!-- Footer -->
   <footer>
-	  <div class="footer">
-		  <div class="container">
-			  &copy; Copyright 2016 | Keri Ritenour
-			  <a href="https://www.facebook.com/keri.ritenour" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
-			  <a href="https://twitter.com/KeriRitenour" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
-		  </div>
-	  </div>
-
-  </footer>
+	  &copy; Copyright 2016 | Keri Ritenour
+	  <a href="https://www.facebook.com/keri.ritenour" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+	  <a href="https://twitter.com/KeriRitenour" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
+  </footer><!-- End Footer -->
 
 
-  </body>
-</html>
+  </body><!-- End body -->
+</html><!-- End html -->
 
 
 
