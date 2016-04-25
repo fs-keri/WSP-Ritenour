@@ -19,8 +19,8 @@
     display : block;
     overflow : auto;
     max-width: 1280px;
+    margin : 0 auto;
 }
-
 
 body{
     font-family: Roboto, sans-serif;
@@ -57,16 +57,14 @@ a:hover{
     color: #ffd020;
 }
 
-p{
+.copyright {
     line-height: 1;
     color: #fff;
+    float: left;
+    display: inline;
+    font-size: 1em;
 }
 
-.wrapper{
-    display : block;
-    overflow : auto;
-    margin : 0 auto;
-}
 
 .information{
     float : left;
@@ -96,6 +94,7 @@ p{
     width: 1.7rem;
     height: 3rem;
     border-radius: 50%;
+    font-family: FontAwesome;
 }
 
 .contactus, .address{
@@ -140,7 +139,6 @@ footer::after{
     display: table;
     clear: both;
 }
-
 
 a[href*=map-marker]::before{content: "\f041";}
 a[href*=facebook]::before{content:"\f09a";}
