@@ -6,7 +6,6 @@ body
     max-width: 1280px;
     font: 400 72px/90px "Playfair Display", sans-serif;
     margin: 0 auto;
-    width: 100%;
     background: url("images/parallax1a.jpg") no-repeat top;
     position: absolute;
     top: 0px;
@@ -15,13 +14,10 @@ body
     height: 100%;
 }
 
-
-
 .intro{
     float: right;
     margin-bottom:45px;
 }
-
 
 section::after{
     content: "";
@@ -29,23 +25,18 @@ section::after{
     clear: both;
 }
 
-
 ul li  {
-    width: calc(25% - (6rem /4));
-    max-width: 90%;
+    width: 3em;
     float: left;
-    margin: 0;
-
+    margin-left: 1.15em;
     text-align: center;
     list-style: none;
-    border: solid red 1px;
 }
 
 img {
     max-width: 100%;
     height: auto;
 }
-
 
 h1, h2 {
     font-style: italic;
@@ -59,7 +50,7 @@ h1{
 
 h2{
     color: #fff;
-    margin: 0 3em 0 3em;
+    margin: 0 1.5em 0 2em;
     padding: 0 3.2em 0 3em;
     font-size: 2rem;
     line-height: 1.5;
@@ -84,9 +75,13 @@ p, div{
     text-align: center;
 }
 
-div, a{
+div a{
     text-decoration: underline;
     padding-top: 2em;
+    background: transparent;
+    font: 400 1.5em "Playfair Display", sans-serif;
+    font-style: italic;
+
 }
 
 h3, p ,a {
